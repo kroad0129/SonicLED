@@ -9,7 +9,7 @@ LED2 = 13       # LED2
 LED3 = 15       # LED3
 
 # GPIO 설정
-GPIO.setmode(GPIO.BCM)
+GPIO.setmode(GPIO.BOARD)
 GPIO.setup(TRIG, GPIO.OUT)
 GPIO.setup(ECHO, GPIO.IN)
 GPIO.setup(LED1, GPIO.OUT)
